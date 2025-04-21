@@ -25,7 +25,7 @@ def make_results(predictions, predictions_arr):
             "status": " is Healthy ",
             "prediction": f"{int(predictions[0][0].round(2)*100)}%",
             "link": "https://thisismygarden.com/2021/05/growing-eggplant/"
-        }
+        } 
     elif int(predictions_arr) == 1:
         result = {
             "status": ' has Multiple Diseases ',
